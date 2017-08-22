@@ -104,6 +104,8 @@ section {
 }
 
 ._nav a {
+
+ margin-right: 5rem;
  @media (max-width: $screen-md){
 	color: $prime;
 	border-bottom: transparent;
