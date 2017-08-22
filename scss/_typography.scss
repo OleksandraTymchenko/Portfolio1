@@ -53,8 +53,8 @@ p {
 a {
   font-family: "Open Sans";
   font-size: 1.8rem;
-  color: $green;
-  text-decoration: underline;
+  color: $white;
+  border-bottom: 0.2rem solid $white;
 
   &:hover {
     text-decoration: none;

@@ -51,7 +51,6 @@
 
   .hero-nav-item {
     display: inline-block;
-
     @media (max-width: $screen-sm){
       display: block;
     }
@@ -102,4 +101,11 @@ section {
     font-size: 1.6rem;
     color: $gray;
   }
+}
+
+._nav a {
+ @media (max-width: $screen-md){
+	color: $prime;
+	border-bottom: transparent;
+	}  
 }
