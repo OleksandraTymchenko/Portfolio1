@@ -6,7 +6,6 @@ var gulp = require('gulp'),
     size = require('gulp-size'),
     sourcemaps = require('gulp-sourcemaps'),
     browser = require("browser-sync").create();
-
 var paths = {
     js : './js/**/*.js',
     jsdir : './js',
@@ -19,10 +18,11 @@ var paths = {
     html: './**/*.html'
 };
 
-gulp.task('clean', function () {
+
+gulp.task('clean',function(){
     del.sync([
-        paths.jsdir,
-        paths.cssdir
+    paths.jsdir,
+    paths.cssdir
     ]);
 });
 
@@ -36,14 +36,6 @@ gulp.task('sass:dev', function () {
         .pipe(sourcemaps.write())
         .pipe(gulp.dest(paths.cssdir))
         .pipe(browser.stream());
-});
-
-gulp.task('sass:prod', function () {
-    return gulp.src(paths.scss)
-        .pipe(sass({
-            outputStyle: 'compressed'
-        }).on('error', sass.logError))
-        .pipe(gulp.dest(paths.cssdir));
 });
 
 gulp.task('js:dev', function () {
