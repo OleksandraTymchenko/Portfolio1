@@ -1,41 +1,40 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "My diploma Fullstack Project",
+  "description": "portfolio",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aleksa151515/Portfolio.git"
+    "url": "git+https://github.com/golovatuy/portfolio.git"
   },
-  "author": "Oleksandra",
+  "author": "AlexG",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/aleksa151515/Portfolio/issues"
+    "url": "https://github.com/golovatuy/portfolio/issues"
   },
-  "homepage": "https://github.com/aleksa151515/Portfolio#readme",
+  "homepage": "https://github.com/golovatuy/portfolio#readme",
   "devDependencies": {
     "bootstrap-sass": "^3.3.7",
-    "browser-sync": "^2.18.12",
+    "browser-sync": "^2.17.5",
     "del": "^2.2.2",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
-    "gulp-sass": "^3.1.0",
+    "gulp-sass": "^2.3.2",
     "gulp-size": "^2.1.0",
-    "gulp-sourcemaps": "^2.6.0",
-    "gulp-uglify": "^2.1.2"
+    "gulp-sourcemaps": "^2.2.0",
+    "gulp-uglify": "^2.1.2",
+    "gulp-watch": "^4.3.10"
   },
   "dependencies": {
-    "bootstrap-sass": "^3.3.7",
-    "browser-sync": "^2.18.12",
+    "browser-sync": "^2.18.13",
     "del": "^2.2.2",
-    "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
-    "gulp-sass": "^3.1.0",
+    "gulp-sass": "^2.3.2",
     "gulp-size": "^2.1.0",
-    "gulp-sourcemaps": "^2.6.0",
+    "gulp-sourcemaps": "^2.6.1",
     "gulp-uglify": "^2.1.2",
     "gulp-watch": "^4.3.11"
   }
