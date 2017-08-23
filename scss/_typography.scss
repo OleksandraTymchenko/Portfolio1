@@ -55,9 +55,17 @@ a {
   font-size: 1.8rem;
   color: $white;
   border-bottom: 0.2rem solid $white;
-
+  text-decoration: none;
+  
   &:hover {
     text-decoration: none;
     color: $green;
   }
-}
+ 
+  &:visited { 
+  text-decoration: none;
+  color: white; 
+  } 
+
+  &:focus { text-decoration: none;}
+  }
