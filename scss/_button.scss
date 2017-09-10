@@ -49,6 +49,16 @@
   }
 }
 
+.btn-project {
+  @extend %btn;
+  color:#65615d;
+  border-color:#65615d;
+  margin-top: 10rem;
+  &:hover {
+    color: #65615d;
+  }
+}
+
 .btn-small {
   padding: 1rem 2rem;
   font-size: 1.3rem;
