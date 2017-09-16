@@ -1,0 +1,17 @@
+.carousel-indicators {
+  
+
+  li {
+    
+    border: 1px solid $prime;
+    border-radius: 10px;
+    background-color: $prime \9; // IE8
+    background-color: rgb(58,156,97); // IE9
+  }
+  .active {
+    margin: 0;
+    width:  12px;
+    height: 12px;
+    background-color: $prime;
+  }
+}
