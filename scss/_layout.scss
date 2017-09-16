@@ -31,3 +31,9 @@ div, p, section, footer, header, aside {
 .circle {
   border-radius: 50%;
 }
+
+.work-wrap{ 
+@media (max-width: $screen-md){
+    margin-left: 20 px;
+  }
+}
