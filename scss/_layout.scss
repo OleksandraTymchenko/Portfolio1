@@ -26,14 +26,13 @@ div, p, section, footer, header, aside {
     padding-left: $containerHorIndentMobile;
     padding-right: $containerHorIndentMobile;
   }
+   @media (max-width: $screen-xs){
+    padding-left: $containerHorIndentMobile;
+    padding-right: $containerHorIndentMobile;
+  }
 }
 
 .circle {
   border-radius: 50%;
 }
 
-.work-wrap{ 
-@media (max-width: $screen-md){
-    margin-left: 20 px;
-  }
-}
