@@ -56,13 +56,14 @@ a {
   color: $white;
   border-bottom: 0.2rem solid $white;
   text-decoration: none;
-  
   &:hover {
     text-decoration: none;
     color: $green;
   }
-
- }
+  &.active {
+    color: $green;
+  }
+  }
  .a{
   &:visited { 
   text-decoration: none;
@@ -79,3 +80,5 @@ a {
   color:$green;
   text-decoration: underline;
   }
+  
+
