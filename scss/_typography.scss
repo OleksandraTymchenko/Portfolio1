@@ -82,10 +82,12 @@ a {
   }
   }
 
- .a2 {
+// style for links
+ .link {
   font-family: "Open Sans";
   font-size: 1.8rem;
-  color:$green;
+  color: $prime;
   text-decoration: underline;
+  border-bottom: none;
   }
   
