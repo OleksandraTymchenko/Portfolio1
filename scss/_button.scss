@@ -51,12 +51,11 @@
 
 .btn-project {
   @extend %btn;
-  color:#65615d;
-  border-color:#65615d;
- 
+  color:$darkGray;
+  border-color: $darkGray;
   &:hover {
-    color: #65615d;
-  }
+    color: $grayShade;
+   }
 }
 
 .btn-small {
