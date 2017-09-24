@@ -71,7 +71,8 @@ a {
   }
   } 
 
- .a{
+//button's style for link
+ .unStyledLink{
   &:visited { 
   text-decoration: none;
   color: $white;
