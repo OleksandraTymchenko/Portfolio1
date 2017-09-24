@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./css/pages/home.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
 <body>
 
 <section class="hero bg-black">
@@ -36,7 +35,7 @@
         <div class="row">
             <div class="col-xs-12 col-md-6">
                 <div class="text-right mobile-text-center">
-                    <div class="btn-outline btn-large">learn more</div>
+                    <div class="btn-outline btn-large" data-toggle="modal" data-target="#learnMore">learn more</div>
                 </div>
             </div>
             <div class="col-xs-12 col-md-6">
@@ -362,6 +361,8 @@
 </div>
 </footer>
 
+ 
+<!-- Modal for button Contact Me-->
 <div id="contactMe" class="modal fade">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -381,6 +382,22 @@
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
+
+<!-- Modal for button Learn More-->
+  <div class="modal fade" id="learnMore" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">About Me</h4>
+        </div>
+        <div class="modal-body">
+          <p>Hello! I am Oleksandra, a front-end developer of beatiful, adaptive, colorful websites. Will make your website fly in the  Internet network and bring your company huge profit and success.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
 
 <script
         src="https://code.jquery.com/jquery-2.2.4.min.js"

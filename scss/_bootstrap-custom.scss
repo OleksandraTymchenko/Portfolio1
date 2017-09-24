@@ -1,17 +1,18 @@
+
+// changed color carousel-indicators 
 .carousel-indicators {
   
-
-  li {
+li {
     
-    border: 1px solid green;
+    border: 1px solid #3a9c61;
     border-radius: 10px;
-    background-color: green \9; // IE8
+    background-color: #3a9c61 \9; // IE8
     background-color: #fff; // IE9
   }
   .active {
     margin: 0;
     width:  12px;
     height: 12px;
-    background-color: green;
+    background-color: #3a9c61;
   }
 }
