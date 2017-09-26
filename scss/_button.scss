@@ -52,20 +52,11 @@
 .btn-project {
   @extend %btn;
   color:$darkGray;
+  margin-top: 10rem;
   border-color: $darkGray;
-  top: 10rem;
-  right: 10rem;
   &:hover {
     color: $grayShade;
    }
-   @media (max-width: $screen-xs){
-    right: 0;
-    bottom: 20rem;
-  }
-    @media (width: 768px){
-    right: 28rem;
-    bottom: 20rem;
-  }
 }
 
 .btn-small {
