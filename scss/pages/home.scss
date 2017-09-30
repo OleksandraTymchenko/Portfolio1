@@ -103,11 +103,54 @@ section {
   }
 }
 
-._nav a {
+.hero-nav a {
 
  margin-right: 5rem;
  @media (max-width: $screen-md){
 	color: $prime;
 	border-bottom: transparent;
 	}  
+}
+
+%project-img {
+  width: 30rem; 
+  height: 32rem;
+}
+
+.project-1 {
+  @extend %project-img;
+  background: url("../../img/ProjectImg/ToDoList.png");
+}
+
+.project-2 {
+  @extend %project-img;
+  background: url("../../img/ProjectImg/project2.png");
+}
+
+.project-3 {
+  @extend %project-img;
+  background: url("../../img/ProjectImg/ToDoList.png");
+}
+
+.project-4 {
+  @extend %project-img;
+  display: none;
+  background: url("../../img/ProjectImg/ToDoList.png");
+}
+
+.project-5 {
+  @extend %project-img;
+  display: none;
+  background: url("../../img/ProjectImg/project2.png");
+}
+
+.project-6 {
+  @extend %project-img;
+  display: none;
+  background: url("../../img/ProjectImg/ToDoList.png");
+}
+
+.item-box {
+  width: 30rem; 
+  height: 22rem;
 }
